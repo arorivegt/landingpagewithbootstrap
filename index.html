@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+
+    <!--Bootstrap-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" 
+    integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/main.css">
+
+    </head>
+<body>
+
+    <!--Navigation-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="/"><img src="img/home_black_24dp.svg" alt="Home" style="width: 40px"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" %
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                <a class="nav-link" href="#about">About</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="#team">Team</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact</a>
+                </li>
+            </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!--Header-->
+    <header id ="about" class="main-header m-top">
+        <div class="background-overlay text-white py-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 text-center justify-content-center aligne-self-center">
+                        <h1>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus quis dolorem, fugit, molestias blanditiis doloribus nobis ratione rem architecto omnis saepe praesentium maxime modi quibusdam, pariatur qui soluta! Beatae, numquam?
+                        Corrupti, sed! Maxime fuga ea quaerat deserunt asperiores unde eum dolores illo consequuntur dolorem animi veniam earum laborum eos exercitationem commodi, quae labore placeat! Aut repellat optio ea ipsam autem.</p>
+                        <a href="#" class="btn btn-outline-secondary btn-lg text-white">Read More</a>
+                    </div>
+                    <div class="col-md-6">
+                        <img src="img/Clen-code.jpg" alt="Clean Code" class="img-fluid d-none d-md-block">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!--Subscriber-->
+    <section class="bg-dark text-center py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4"> 
+                    <input type="text" class="form-control form-control-lg" placeholder="Ingrese su nombre">
+                </div>
+                <div class="col-md-4">
+                    <input type="email" class="form-control form-control-lg" placeholder="Ingrese su correo">
+                </div>
+                <div class="col-md-4">
+                    <button class="btn btn-primary btn-lg btn-block"> Suscribite</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-5">
+        <div class="container">
+            <class class="row">
+                <div class="col-md-3">
+                    <div class="card text-center border-primary ">
+                        <div class="card-body">
+                            <h3>Feature 1</h3>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro, labore?</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card text-center bg-primary text-white">
+                        <div class="card-body">
+                            <h3>Feature 2</h3>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro, labore?</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card text-center border-primary ">
+                        <div class="card-body">
+                            <h3>Feature 3</h3>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro, labore?</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card text-center bg-primary text-white">
+                        <div class="card-body">
+                            <h3>Feature 4</h3>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro, labore?</p>
+                        </div>
+                    </div>
+                </div>
+            </class>
+        </div>
+    </section>
+
+    <section class="bg-light text-center">
+        <div class="container">
+            <div class="row">
+                <div class="m-5">
+                    <h3>Lorem, ipsum dolor.</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempora voluptatum molestiae ea sequi molestias sunt aliquam sed voluptate, quisquam voluptatibus.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--accordion-->
+    <section class="container text-center p-5">
+        <div class="row">
+            <div class="accordion" id="accordionExample">
+                <div class="card">
+                  <div class="card-header" id="headingOne">
+                    <h2 class="mb-0">
+                      <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        First Question
+                      </button>
+                    </h2>
+                  </div>
+              
+                  <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+                    <div class="card-body">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, ipsum ipsam illum inventore exercitationem aut enim similique, quibusdam odio perspiciatis temporibus asperiores quis blanditiis hic atque eaque vel ad ullam?  
+                    </div>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="card-header" id="headingTwo">
+                    <h2 class="mb-0">
+                      <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        Second Question
+                      </button>
+                    </h2>
+                  </div>
+                  <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                    <div class="card-body">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse quidem sed porro qui, ducimus aperiam blanditiis earum ratione mollitia ab harum rerum exercitationem cupiditate, amet autem suscipit quas laboriosam perferendis.
+                    </div>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="card-header" id="headingThree">
+                    <h2 class="mb-0">
+                      <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        Third Question
+                      </button>
+                    </h2>
+                  </div>
+                  <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                    <div class="card-body">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ex temporibus rerum dolorem rem distinctio totam iste quidem neque ipsa recusandae aspernatur provident, cumque, non possimus hic, accusantium numquam libero? Earum.
+                    </div>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="card-header" id="headingFour">
+                    <h2 class="mb-0">
+                      <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                        Fourth Question
+                      </button>
+                    </h2>
+                  </div>
+                  <div id="collapseFour" class="collapse" aria-labelledby="collapseFour" data-parent="#accordionExample">
+                    <div class="card-body">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ex temporibus rerum dolorem rem distinctio totam iste quidem neque ipsa recusandae aspernatur provident, cumque, non possimus hic, accusantium numquam libero? Earum.
+                    </div>
+                  </div>
+                </div>
+              </div>
+        </div>
+    </section>
+
+    <!--Team-->
+    <section id="team" class="team text-center">
+        <div class="container p-5">
+            <h1 class="text-white">Team</h1>
+            <p class="text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, neque maxime fugit necessitatibus vero impedit voluptates nobis explicabo incidunt asperiores beatae obcaecati, laborum repudiandae dolorum ullam eaque quis perferendis animi?</p>
+            <div class="row">
+                <div class="col-lg-3">
+                    <div class="card">
+                        <div class="card-body">
+                            <img src="img/person_black_24dp.svg" alt="person one" class="img-fuid round-circle w-50">
+                            <h3>Lorem, ipsum.</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur.</p>
+                            <div class="d-flex flex-row justify-content-center">
+                                <div class="p-4">
+                                    <a href="https://facebook.com" target="_blank">
+                                        <img src="img/facebook_black_24dp.svg" alt="facebook">
+                                    </a>
+                                </div>
+                                <div class="p-4">
+                                    <a href="https://facebook.com" target="_blank">
+                                        <img src="img/public_black_24dp.svg" alt="facebook">
+                                    </a>
+                                </div>
+                                <div class="p-4">
+                                    <a href="https://facebook.com" target="_blank">
+                                        <img src="img/sentiment_satisfied_black_24dp.svg" alt="facebook">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="card">
+                        <div class="card-body">
+                            <img src="img/person_black_24dp.svg" alt="person one" class="img-fuid round-circle w-50">
+                            <h3>Lorem, ipsum.</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur.</p>
+                            <div class="d-flex flex-row justify-content-center">
+                                <div class="p-4">
+                                    <a href="https://facebook.com" target="_blank">
+                                        <img src="img/facebook_black_24dp.svg" alt="facebook">
+                                    </a>
+                                </div>
+                                <div class="p-4">
+                                    <a href="https://facebook.com" target="_blank">
+                                        <img src="img/public_black_24dp.svg" alt="facebook">
+                                    </a>
+                                </div>
+                                <div class="p-4">
+                                    <a href="https://facebook.com" target="_blank">
+                                        <img src="img/sentiment_satisfied_black_24dp.svg" alt="facebook">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="card">
+                        <div class="card-body">
+                            <img src="img/person_black_24dp.svg" alt="person one" class="img-fuid round-circle w-50">
+                            <h3>Lorem, ipsum.</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur.</p>
+                            <div class="d-flex flex-row justify-content-center">
+                                <div class="p-4">
+                                    <a href="https://facebook.com" target="_blank">
+                                        <img src="img/facebook_black_24dp.svg" alt="facebook">
+                                    </a>
+                                </div>
+                                <div class="p-4">
+                                    <a href="https://facebook.com" target="_blank">
+                                        <img src="img/public_black_24dp.svg" alt="facebook">
+                                    </a>
+                                </div>
+                                <div class="p-4">
+                                    <a href="https://facebook.com" target="_blank">
+                                        <img src="img/sentiment_satisfied_black_24dp.svg" alt="facebook">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="card">
+                        <div class="card-body">
+                            <img src="img/person_black_24dp.svg" alt="person one" class="img-fuid round-circle w-50">
+                            <h3>Lorem, ipsum.</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur.</p>
+                            <div class="d-flex flex-row justify-content-center">
+                                <div class="p-4">
+                                    <a href="https://facebook.com" target="_blank">
+                                        <img src="img/facebook_black_24dp.svg" alt="facebook">
+                                    </a>
+                                </div>
+                                <div class="p-4">
+                                    <a href="https://facebook.com" target="_blank">
+                                        <img src="img/public_black_24dp.svg" alt="facebook">
+                                    </a>
+                                </div>
+                                <div class="p-4">
+                                    <a href="https://facebook.com" target="_blank">
+                                        <img src="img/sentiment_satisfied_black_24dp.svg" alt="facebook">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Contact-->
+    <section id="contact" class="bg-light py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-9">
+                    <h3>Contact</h3>
+                    <p>Lorem ipsum dolor sit.</p>
+                    <form action="">
+                        <div class="input-group mb-3">
+                            <div class="input-group-prepend">
+                                <img src="img/person_black_24dp.svg" alt="Nombre" class="input-group-text">
+                            </div>
+                            <input type="text" class="form-control" placeholder="Nombre">
+                        </div>
+                        <div class="input-group mb-3">
+                            <div class="input-group-prepend">
+                                <img src="img/alternate_email_black_24dp.svg" alt="email" class="input-group-text">
+                            </div>
+                            <input type="email" class="form-control" placeholder="Correo Electronico">
+                        </div>
+                        <div class="input-group mb-3">
+                            <div class="input-group-prepend">
+                                <img src="img/create_black_24dp.svg" alt="mensaje" class="input-group-text">
+                            </div>
+                            <textarea class="form-control" cols="30" rows="10" placeholder="Escribe tu mensaje">
+
+                            </textarea>
+                        </div>
+
+                        <button class="btn btn-primary btn-lg btn-block">
+                            Envia tu mensaje
+                        </button>
+                    </form>
+                </div>
+                <div class="col-lg-3 aligne-self-center">
+                    <img src="img/home_black_24dp.svg" alt="" width="200px">
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <footer>
+        <div class="container p-3">
+            <p class="text-white text-center">Copyright &copy; 2021</p>
+        </div>
+    </footer>
+
+    <script>
+
+        //smoth scrolling, the solution is in stackOverflow
+        //https://stackoverflow.com/questions/7717527/smooth-scrolling-when-clicking-an-anchor-link
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+    <!--I added my JavaScript until the end because when the web page load, load the all elements before the JavaScript 
+        and with this i avoid the slowness for my page-->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+</body>
+</html>
